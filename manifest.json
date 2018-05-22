@@ -12,10 +12,6 @@
 "chrome_url_overrides" : {
   "newtab": "index.html"
 },
- "permissions": ["activeTab","tabs","storage"],
-"content_scripts": [
-    {
-      "js": ["js/Quotes.js"]
-    }
-  ]
+ "permissions": ["activeTab","tabs","storage"]
+
 }
